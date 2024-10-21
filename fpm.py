@@ -9,7 +9,10 @@ except ModuleNotFoundError:
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-i', '--install', help='installs a package')
+parser.add_argument('version')
 args = parser.parse_args()
+if args.version == True:
+    prunt('FPM Version 0.1')
 if str(args.install) in repo:
     os.system(f'git clone {repo[args.install]}')
 else:
