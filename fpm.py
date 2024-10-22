@@ -14,6 +14,6 @@ args = parser.parse_args()
 if args.version:
     exit('FPM Version 0.1')
 if str(args.install) in repo:
-    os.system(f'git clone {repo[args.install]}')
+    os.system(f'{repo[args.install]}')
 else:
     print(f'package not found: {args.install}')

@@ -1,5 +1,5 @@
 repo = {
     # 'pkgname':'url'
-    'catfact':'https://github.com/Redstone-The-Fox/catfact',
-    'fpm':'https://github.com/Redstone-The-Fox/fpm'
+    'catfact':'git clone https://github.com/Redstone-The-Fox/catfact',
+    'fpm':'git clone https://github.com/Redstone-The-Fox/fpm'
 }
